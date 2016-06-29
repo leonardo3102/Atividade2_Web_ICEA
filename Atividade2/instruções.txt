@@ -1,0 +1,53 @@
+é necessário ter o banco de dados petshop executado com os seguintes comandos:
+
+INSERT into usuarios VALUES (1, 'Administrador', 'admin', md5('admin'), 1);
+
+INSERT into usuarios VALUES (2, 'Secretaria', 'secretaria', md5('secretaria'), 2);
+
+INSERT into usuarios VALUES (3, 'Coordenador', 'coordenador', md5('coordenador'), 3);
+
+
+Inserção de alguns produtos:
+
+
+INSERT INTO `petshop`.`produtos` (`id`, `nome`, `preco`, `imagem`) VALUES ('1', 'Tapete Higiênico Descartável Dog\'s Care', '100.00', 'product/01.png');
+
+INSERT INTO `petshop`.`produtos` (`id`, `nome`, `preco`, `imagem`) VALUES ('2', 'Tapete Higiênico Flip Flop', '80.00', 'product/02.png');
+
+INSERT INTO `petshop`.`produtos` (`id`, `nome`, `preco`, `imagem`) VALUES ('3', 'Tapete Higiênico Chalesco 30 Unidades', '60.00', 'product/03.png');
+
+INSERT INTO `petshop`.`produtos` (`id`, `nome`, `preco`, `imagem`) VALUES ('4', 'Alimentador Eletrônico Amicus', '220.00', 'product/04.png');
+
+INSERT INTO `petshop`.`produtos` (`id`, `nome`, `preco`, `imagem`) VALUES ('5', 'Comedouro Lumare Quart Dish Expresso', '180.00', 'product/05.png');
+
+
+INSERT INTO `petshop`.`produtos` (`id`, `nome`, `preco`, `imagem`) VALUES ('6', 'Comedouro Jambo Azul Metálico', '160.00', 'product/06.png');
+
+INSERT INTO `petshop`.`produtos` (`id`, `nome`, `preco`, `imagem`) VALUES ('7', 'Crocodilo Pelúcia - Chalesco', '30.00', 'product/07.png');
+
+INSERT INTO `petshop`.`produtos` (`id`, `nome`, `preco`, `imagem`) VALUES ('8', 'Brinquedo para Cães Squirrel Dude M', '100.00', 'product/08.png');
+
+INSERT INTO `petshop`.`produtos` (`id`, `nome`, `preco`, `imagem`) VALUES ('9', 'Brinquedo Osso Superbone Borracha P', '65.00', 'product/09.png');
+
+
+
+
+Então serão registrados os usuários: 
+user: admin		senha: admin
+user: secretaria	senha: secretaria
+user: coordenador	senha: coordenador
+
+
+o arquivo AtividadeII deve ser colocado na pasta www do wamp;
+
+
+No navegador digitar o endereço seguinte:
+http://localhost/AtividadeII/index.html
+
+
+
+ou acessar o arquivo no estilo cake php que não está completamente implementado:
+http://localhost/atividade2/brasilisco
+
+
+pronto, agora você pode acessar o site.
